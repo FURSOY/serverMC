@@ -11,12 +11,20 @@
 #
 regions:
     lobby:
-        min: {x: -9, y: -15, z: -27}
-        max: {x: 29, y: 18, z: 25}
+        min: {x: -52, y: -23, z: -92}
+        max: {x: 17, y: 15, z: 72}
         members: {}
-        flags: {time-lock: allow, build: deny, fall-damage: deny, invincible: deny,
-            block-break: deny, interact: allow, pvp: allow, block-place: deny, mob-spawning: deny,
-            weather-lock: clear}
+        flags: {feed-max-hunger: 50, build: deny, fall-damage: deny, block-break: deny,
+            pvp: deny, mob-spawning: deny, weather-lock: clear}
+        owners: {}
+        type: cuboid
+        priority: 0
+    pvplobby:
+        min: {x: 19, y: -4, z: -5}
+        max: {x: 32, y: 1, z: 7}
+        members: {}
+        flags: {item-drop: deny, build: deny, fall-damage: deny, item-pickup: deny,
+            block-break: deny, pvp: allow, mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0

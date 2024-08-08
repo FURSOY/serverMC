@@ -7,14 +7,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:dark_forest": "2024-08-03 13:27:11 +0300",
+      "minecraft:forest": "2024-08-01 22:06:28 +0300",
+      "minecraft:taiga": "2024-08-08 11:52:41 +0300",
+      "minecraft:deep_ocean": "2024-08-08 12:08:19 +0300",
+      "minecraft:river": "2024-08-08 12:23:24 +0300",
+      "minecraft:stony_shore": "2024-08-08 11:48:34 +0300",
+      "minecraft:lush_caves": "2024-08-08 14:27:20 +0300",
+      "minecraft:snowy_taiga": "2024-08-01 21:22:22 +0300",
+      "minecraft:dripstone_caves": "2024-08-08 12:28:11 +0300",
       "minecraft:old_growth_birch_forest": "2024-08-01 21:55:43 +0300",
       "minecraft:desert": "2024-08-03 13:36:36 +0300",
-      "minecraft:dark_forest": "2024-08-03 13:27:11 +0300",
       "minecraft:frozen_river": "2024-08-01 22:20:48 +0300",
-      "minecraft:forest": "2024-08-01 22:06:28 +0300",
+      "minecraft:windswept_forest": "2024-08-08 11:32:05 +0300",
       "minecraft:ocean": "2024-08-01 21:54:04 +0300",
       "minecraft:grove": "2024-08-02 20:38:06 +0300",
-      "minecraft:snowy_taiga": "2024-08-01 21:22:22 +0300",
       "minecraft:savanna": "2024-08-01 14:21:26 +0300",
       "minecraft:plains": "2024-08-01 14:20:36 +0300",
       "minecraft:jagged_peaks": "2024-08-01 22:04:34 +0300",
@@ -169,6 +176,138 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2024-08-01 22:28:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-08-08 12:24:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2024-08-08 14:01:08 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2024-08-08 14:01:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-08-08 14:01:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2024-08-08 14:01:10 +0300"
     },
     "done": true
   },

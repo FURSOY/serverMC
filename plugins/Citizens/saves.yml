@@ -1,0 +1,56 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    name: '&7(&b%world_players_oyun%&7) &aLav Yükseliyor'
+    uuid: 30fd687e-ece8-4b4a-aa5e-028e5710d3e7
+    traits:
+      owner:
+        uuid: 2c9690da-3bf1-3304-9ce5-4957fac06a86
+      skintrait:
+        signature: wuEJ+8FY1bZR51D3jnzFogvSRFkD8BKg4lICQX94C9UBSznAbj4XXB1rvlzdPZ07A4CvSV1Yj+8PxxtZEXUvgwp3pzVaRqAmPq052Hber1CGKeusRAZKNWjzKpl7B135X9a9OEPDw9A/v6Z9Xqj8i6ecCb13EflbnD07wYz4ALl5X0sqmKhnr0QRgX0bz6pmCuPeXI9bzCNAvTUzudN80O7qUzovZYoSyRG9/z08ippiEtrmZC2WM0OMjWSvcwuKjrrCOYZ09AXbw1+PGTKt7jTIGh5Lf/newrfnL20wKfcTBEWbniszSaL8dew7BYckJ5QAE1380W7i/ilMHYG2clSxLqfps5rifLjH2MDb9GWHnWY4Pna3f7HrGizgac1m435gnuzICY9pFYrfyhulV5TvMjHG4LoVjuqygpOwWZ2NLXMy3PQA+bvTKhSXA7mYPQEDNzE+uLRO1fYq/2bwFrqwT1RJkRu4u7eBo/gfRVeczirPv3+JIZdscr/Rkr1jEbpu+sOkXtcTDsivmson7om2PSuRrjpVdEt93MYfYiTJNv2DZG6VHyosobj3oucdQJvpEprTfoHJ0sX6yV283v1UjAP8gdAaf7n8l+YAq6Lnby0qbtDpeY3ottF7JzfZjmUVkZ+4MTwphSJaS/7XY888jHZOv3fHyv1Pm8b3zqw=
+        skinName: Rodinya
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzA1NTg5NDYyMCwKICAicHJvZmlsZUlkIiA6ICJjYjBmZmJiMmRjODI0ZGQ2OGZhYjNkZTBhOWNlODQ4NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb2RpbnlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2NmE2ZmY5NTU4ZTQyMTQwMmM0NjE2M2VjYTVmMDY4ZTU1MzQ4ZjFkMGRlZDQyYTRiY2UwMDQwMGI5Zjk5MTMiCiAgICB9CiAgfQp9
+      spawned: true
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      location:
+        bodyYaw: -88.56144
+        world: lobby
+        x: -4.7
+        y: 0.0
+        z: 0.4576
+        yaw: -88.5614
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '1':
+            command: joinoyun
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+    traitnames: rotationtrait,location,lookclose,inventory,commandtrait,owner,type,spawned,scoreboardtrait,hologramtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: cb0ffbb2-dc82-4dd6-8fab-3de0a9ce8486
+      cached-skin-uuid-name: rodinya

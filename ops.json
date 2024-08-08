@@ -1,5 +1,17 @@
 [
   {
+    "uuid": "b6151a01-ef16-3652-a4dc-f5033e289c7b",
+    "name": "Himorbium",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "625c1377-4893-3624-a398-104a86b4cc70",
+    "name": "LAlal",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "abc65152-3c2e-4122-bf18-215d27e52d9a",
     "name": "FURSOY",
     "level": 4,
